@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.hyze</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <groupId>net.hyze.factions</groupId>
+    <artifactId>framework</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Factions-Framework</name>
+
+    <repositories>
+        <repository>
+            <id>enginehub-maven</id>
+            <url>https://maven.enginehub.org/repo/</url>
+        </repository>
+
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
+        </repository>
+        <repository>
+            <id>citizensnpcs</id>
+            <url>https://repo.citizensnpcs.co/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>dev.utils</groupId>
+            <artifactId>utils-shared</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>dev.utils</groupId>
+            <artifactId>utils-bukkit</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <!--Spigot API-->
+        <dependency>
+            <groupId>app.ashcon</groupId>
+            <artifactId>sportpaper-api</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Craftbukkit-->
+        <dependency>
+            <groupId>app.ashcon</groupId>
+            <artifactId>sportpaper</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Core Shared-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>core-shared</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Core Spigot-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>core-spigot</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Chests-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>containers</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Market-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>market</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Auction-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>auction</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Kits-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>kits</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Economy-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>economy</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--SignShop-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>sign-shop</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--SignShop-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>safe</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Homes-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>homes</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Beacon-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>beacon</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--MysteryBox-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>mystery-box</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--End-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>end</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--PersonalMail-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>personal-mail</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--HyzeSkills-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>factions-skills</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>obsidian-destroyer</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- WorldEdit -->
+        <dependency>
+            <groupId>com.sk89q.worldedit</groupId>
+            <artifactId>worldedit-bukkit</artifactId>
+            <version>6.1.4-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Bungeecord Chat-->
+        <dependency>
+            <groupId>io.github.waterfallmc</groupId>
+            <artifactId>olimpo-chat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--ProtocolLib-API-->
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Citizens -->
+        <dependency>
+            <groupId>net.citizensnpcs</groupId>
+            <artifactId>citizensapi</artifactId>
+            <version>2.0.16-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.citizensnpcs</groupId>
+            <artifactId>citizens</artifactId>
+            <version>2.0.16-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--        <dependency>-->
+        <!--            <groupId>com.boydti</groupId>-->
+        <!--            <artifactId>fawe-api</artifactId>-->
+        <!--            <scope>provided</scope>-->
+        <!--        </dependency>-->
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>io.socket:**</include>
+                                    <include>org.json:**</include>
+                                    <include>net.hyze:tabbed</include>
+                                </includes>
+                            </artifactSet>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
